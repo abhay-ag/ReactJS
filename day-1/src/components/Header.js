@@ -7,14 +7,14 @@ function Header() {
       <div className="flex-1 md:flex-[0.3_1_0%] flex flex-row itmes-center">
         ReactJS.org
       </div>
-      <div className="flex flex-1 md:flex[0.7_1_0%] flex-col md:flex-row justify-center items-start ms:items-center md:justify-end">
-        <a href="#" className="md:px-4 text-xl font-semibold text-white">
+      <div className="flex flex-1 md:flex[0.7_1_0%] flex-col md:flex-row justify-center items-start md:items-center md:justify-end">
+        <a href="#" className="md:px-4 text-xl font-semibold text-white hover:text-sky-500 transition ease-in-out">
           Home
         </a>
-        <a href="#" className="md:px-4 text-xl font-semibold text-white">
+        <a href="#" className="md:px-4 text-xl font-semibold text-white hover:text-sky-500 transition ease-in-out">
           Products
         </a>
-        <a href="#" className="md:px-4 text-xl font-semibold text-white">
+        <a href="#" className="md:px-4 text-xl font-semibold text-white hover:text-sky-500 transition ease-in-out">
           Pricing
         </a>
       </div>
