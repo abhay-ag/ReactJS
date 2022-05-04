@@ -6,3 +6,10 @@
 
 // usability: deploying react is fairly easy to accomplish if you have some basic knowledge of JavaScript.
 // mobile app development: use react-native for mobile development.
+
+// folder structure of the create-react-app
+
+// node_modules: contains all the dependencies required to run a project ==> often put in the gitignore ==> very neccesary || contains confidential information also
+// public: interface of the application [index.html] || frontend of the website.
+
+// src: program entry point index.js || npm start hits the same file || containd the code for rendering the index.html
