@@ -4,8 +4,11 @@ import './components/style.css'
 
 function App() {
   return (
-    <div className="w-screen h-screen bg-sky-700">
+    <div>
       <Header />
+      <Card />
+      <Card />
+      <Card />
       <Card />
     </div>
   );
