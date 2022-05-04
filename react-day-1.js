@@ -13,3 +13,6 @@
 // public: interface of the application [index.html] || frontend of the website.
 
 // src: program entry point index.js || npm start hits the same file || containd the code for rendering the index.html
+
+// all the components should be put in the function only
+// multiple components should be wrapped in <></> else error will be thrown.
