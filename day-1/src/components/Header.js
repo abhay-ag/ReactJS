@@ -3,7 +3,7 @@ import "./style.css";
 
 function Header() {
   return (
-    <div className="bg-sky-800 h-fit flex flex-col md:flex-row box-border px-1 py-2 text-white text-4xl font-bold m-auto">
+    <div className="bg-sky-800 h-fit flex flex-col md:flex-row box-border px-1 py-2 text-white text-4xl font-bold m-auto sticky top-0">
       <div className="flex-1 md:flex-[0.3_1_0%] flex flex-row itmes-center justify-center">
         ReactJS.org
       </div>
