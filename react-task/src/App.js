@@ -1,7 +1,8 @@
+import './styles/style.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-blue-500">
       Hello
     </div>
   );
