@@ -8,13 +8,13 @@ function Header() {
         ReactJS.org
       </div>
       <div className="hidden md:flex flex-1 md:flex[0.7_1_0%] flex-col md:flex-row justify-center items-start md:items-center md:justify-end">
-        <a href="#" className="md:px-4 text-xl font-semibold text-white hover:text-sky-500 transition ease-in-out">
+        <a href="/" className="md:px-4 text-xl font-semibold text-white hover:text-sky-500 transition ease-in-out">
           Home
         </a>
-        <a href="#" className="md:px-4 text-xl font-semibold text-white hover:text-sky-500 transition ease-in-out">
+        <a href="/" className="md:px-4 text-xl font-semibold text-white hover:text-sky-500 transition ease-in-out">
           Products
         </a>
-        <a href="#" className="md:px-4 text-xl font-semibold text-white hover:text-sky-500 transition ease-in-out">
+        <a href="/" className="md:px-4 text-xl font-semibold text-white hover:text-sky-500 transition ease-in-out">
           Pricing
         </a>
       </div>
