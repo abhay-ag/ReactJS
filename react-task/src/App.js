@@ -11,6 +11,10 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import StackedLineChartIcon from '@mui/icons-material/StackedLineChart';
+import JavascriptIcon from '@mui/icons-material/Javascript';
+import CssIcon from '@mui/icons-material/Css';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import TerminalIcon from '@mui/icons-material/Terminal';
 
 function App() {
   return (
@@ -20,39 +24,59 @@ function App() {
           <>
             <Navbar />
             <div className="flex flex-col md:flex-row flex-wrap w-3/4 justify-center m-auto box-border py-2 md:py-14">
-              <Webcard
+              {/* <Webcard
                 logo={<InstagramIcon />}
                 title = {"Instagram"}
-                link = {"instagram"}
-              />
+                link = {"instagram.com"}
+              /> */}
               <Webcard
                 logo={<YouTubeIcon />}
                 title = {"Youtube"}
-                link = {"youtube"}
+                link = {"youtube.com"}
               />
               <Webcard
                 logo={<GitHubIcon />}
                 title = {"Github"}
-                link = {"github"}
+                link = {"github.com"}
               />
               <Webcard
                 logo={<LinkedInIcon />}
                 title = {"LinkedIn"}
-                link = {"linkedin"}
+                link = {"linkedin.com"}
               />
               <Webcard
                 logo={<StackedLineChartIcon />}
                 title = {"StackOverflow"}
-                link = {"stackoverflow"}
+                link = {"stackoverflow.com"}
+              />
+              <Webcard
+                logo={<JavascriptIcon />}
+                title = {"ReactJS"}
+                link = {"reactjs.org"}
+              />
+              <Webcard
+                logo={<JavascriptIcon />}
+                title = {"NodeJS"}
+                link = {"nodejs.org"}
+              />
+              <Webcard
+                logo={<CssIcon />}
+                title = {"TailwindCSS"}
+                link = {"tailwindcss.com"}
+              />
+              <Webcard
+                logo={<AccountTreeIcon />}
+                title = {"TheOdinProject"}
+                link = {"theodinproject.com"}
+              />
+              <Webcard
+                logo={<TerminalIcon />}
+                title = {"FreeCodeCamp"}
+                link = {"freecodecamp.org"}
               />
             </div>
           </>
         } />
-        <Route path='/instagram' element={<Navbar />}/>
-        <Route path='/youtube' element={<Navbar />}/>
-        <Route path='/github' element={<Navbar />}/>
-        <Route path='/linkedin' element={<Navbar />}/>
-        <Route path='/stackoverflow' element={<Navbar />}/>
       </Routes>
     </BrowserRouter>
   );
