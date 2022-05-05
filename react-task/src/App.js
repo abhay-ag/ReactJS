@@ -1,10 +1,11 @@
+import Navbar from './Components/Navbar';
 import './styles/style.css'
 
 function App() {
   return (
-    <div className="bg-blue-500">
-      Hello
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
