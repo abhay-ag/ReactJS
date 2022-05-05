@@ -24,11 +24,11 @@ function App() {
           <>
             <Navbar />
             <div className="flex flex-col md:flex-row flex-wrap w-3/4 justify-center m-auto box-border py-2 md:py-14">
-              {/* <Webcard
+              <Webcard
                 logo={<InstagramIcon />}
                 title = {"Instagram"}
                 link = {"instagram.com"}
-              /> */}
+              />
               <Webcard
                 logo={<YouTubeIcon />}
                 title = {"Youtube"}
