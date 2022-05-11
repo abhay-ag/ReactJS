@@ -21,3 +21,9 @@
 // for components we use JSX
 // for modules we use MJS
 // for simple JavaScript we use JS
+
+// using props
+
+/*
+    customised properties ==> like title, links;
+*/
