@@ -16,3 +16,8 @@
 
 // all the components should be put in the function only
 // multiple components should be wrapped in <></> else error will be thrown.
+
+// use props for minimum writeup and minimum code
+// for components we use JSX
+// for modules we use MJS
+// for simple JavaScript we use JS
