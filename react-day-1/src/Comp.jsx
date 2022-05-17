@@ -5,7 +5,7 @@ function Comp() {
   const [flag, setFlag] = useState(false)
  
   function Hello(props){
-    return <div className='font-bold text-4xl'>{curVal}</div>
+    return <div className='mt-5 font-bold text-4xl'>{curVal}</div>
   }
 
   const handleOnClick = () => {
