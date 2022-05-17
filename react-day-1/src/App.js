@@ -1,5 +1,6 @@
+import Comp from './Comp';
 import Navbar from './Navbar';
-import './style.css'
+import './style.css';
 function App() {
   return (
     <div>
@@ -8,6 +9,7 @@ function App() {
         title= "Chitkara University"
         links={["Home", "Projects", "Bye-Bye"]}
       />
+      <Comp />
     </div>
   );
 }
