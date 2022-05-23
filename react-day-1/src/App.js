@@ -1,3 +1,4 @@
+import Com1 from './Com1';
 import Comp from './Comp';
 import Navbar from './Navbar';
 import './style.css';
@@ -10,6 +11,7 @@ function App() {
         links={["Home", "Projects", "Bye-Bye"]}
       />
       <Comp />
+      <Com1 />
     </div>
   );
 }
