@@ -1,3 +1,4 @@
+import Accordian from './Accordian';
 import Com1 from './Com1';
 import Comp from './Comp';
 import Navbar from './Navbar';
@@ -12,6 +13,7 @@ function App() {
       />
       <Comp />
       <Com1 />
+      <Accordian />
     </div>
   );
 }
