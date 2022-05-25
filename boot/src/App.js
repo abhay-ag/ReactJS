@@ -20,8 +20,8 @@ function App() {
     }
   };
   return (
-    <>
-      <Accordion defaultActiveKey="0" className= 'my-3 w-50 p-5'>
+    <div className="container">
+      <Accordion defaultActiveKey="0" className= 'my-3 w-full'>
         <Accordion.Item eventKey="0" style={curStyle}>
           <Accordion.Header>Accordion Item #1</Accordion.Header>
           <Accordion.Body>
@@ -47,8 +47,8 @@ function App() {
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
-      <Button onClick={handleClick}>Change Mode</Button>
-    </>
+      <Button onClick={handleClick} className =''>Change Mode</Button>
+    </div>
   );
 }
 
