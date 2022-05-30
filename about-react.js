@@ -27,3 +27,6 @@
 /*
     customised properties ==> like title, links;
 */
+
+// constructors are used to define the state of the class.
+// super() ==> reserved keyword || call the parent constructor
